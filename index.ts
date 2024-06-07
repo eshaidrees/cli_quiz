@@ -3,7 +3,7 @@
 import inquirer from "inquirer"
 import chalk from "chalk"
 
-console.log(chalk.magenta('\n\tWelcome to the TypeScript Quiz! Let\'s test your knowledge.\n'));
+console.log(chalk.yellow('\n\tWelcome to the TypeScript Quiz! Let\'s test your knowledge.\n'));
 
 let correctAnswers = 0;
 
@@ -86,5 +86,5 @@ else{
     
 }
 
-console.log(chalk.yellow(`You got ${correctAnswers} out of 5 questions correct.`));
-console.log(chalk.magenta('\n\tThank you for taking the TypeScript Quiz! Have a great day!'));
+console.log(chalk.magentaBright(`You got ${correctAnswers} out of 5 questions correct.`));
+console.log(chalk.yellow('\n\tThank you for taking the TypeScript Quiz! Have a great day!'));
